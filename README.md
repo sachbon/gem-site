@@ -9,3 +9,5 @@ To Do :
   Character Creation Cthulhu
   Character Creation Vampire
   Character Creation Eclipse Phase
+
+A voir quels sont les langues à utiliser.
