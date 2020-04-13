@@ -48,18 +48,35 @@ div.nav a:hover {
 } 
 
 div.pres {
-	position: absolute;
+	height: 100%;
+	z-index: 1;
+	position: fixed;
 	left:0px;
 	padding-top: 200px;
 	padding: 200px;
 	align-self: center;
 	background-image: url("../img/bg/bg-pres.png");
-	opacity: 0.4;
+	background-attachment: fixed;
 	background-size:100%; 
-	border-bottom: solid white 6px;
 }
 
-div.pres h1, p{
+div.pres .prestext{
 	color: white;
-	opacity: 1.0;
 }
+
+div.after-pres{
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	height: 100%;
+	min-height: 100%;
+	z-index: 2;
+	background-color: #333333;
+	border-top: solid white 6px;
+}
+
+
